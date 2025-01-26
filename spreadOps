@@ -1,0 +1,9 @@
+console.log("Hello, World!");
+
+const str = "Hello";
+const charArray = [str];
+console.log(charArray); 
+
+const str2 = "Hello";
+const charArray2 = [...str];
+console.log(charArray2); // Output: ['H', 'e', 'l', 'l', 'o']

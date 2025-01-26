@@ -1,0 +1,23 @@
+function random(number) {
+  return (Math.random() * number);
+}
+
+console.log(random(57878));
+
+console.log(57989);
+
+let murky = ['dave', 55555];
+console.log(murky);
+ 
+ 
+//let strTry = 'car';
+//let numTry = 5;
+let result = function multType(strTry, numTry) {
+  console.log('inside func ' + [strTry, numTry]);
+  return [strTry, numTry];
+}
+
+
+//result = multType('car', 5);
+
+console.log(result('car', 5));
